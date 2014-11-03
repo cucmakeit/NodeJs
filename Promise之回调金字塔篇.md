@@ -35,7 +35,7 @@ function main(data, cb){
 
 `promise`的出现就是为了解决上述问题.promise是一个标准，它描述了异步调用的返回结果，包括正确返回结果和错误处理。需要注意的是，promise只是一种编程方式的变化，无须在底层改变。其详细说明文档可参考[Promise/A+](https://promisesaplus.com/)。
 
-CommonJS规范中提到了多种promise的实现，接下来将以使用较多的`Q`，以及我现在用的比较多的`LeanCloud`中promise的实现为例来介绍一下promise在nodejs中的实现及使用。
+CommonJS规范中提到了多种promise的实现，如 Q 、 bluebird 和 Deferred ，接下来将以使用较多的`Q`，以及我现在用的比较多的`LeanCloud`中promise的实现为例来介绍一下promise在nodejs中的实现及使用。
 
 先来耐心看一下promise是如何实现的。
 
